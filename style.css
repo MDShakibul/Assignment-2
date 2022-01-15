@@ -1,3 +1,6 @@
+/* -----------------
+     common style
+-------------------- */
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -5,6 +8,10 @@ body {
   margin-right: 120px;
   margin-left: 120px;
 }
+
+/*------------------
+      nav-bar style
+-------------------- */
 
 #nav-text {
   font-size: 24px;
@@ -32,6 +39,10 @@ body {
   text-decoration: none;
   margin-top: 95px;
 }
+
+/* -------------------
+  top section style
+  ------------------- */
 
 .btn-preebook {
   text-decoration: none;
@@ -74,6 +85,10 @@ body {
   transform: rotate(40deg);
 }
 
+/*------------------ 
+   multiple logo
+------------------ */
+
 .logo-section {
   margin: 100px 0 100px 0;
 }
@@ -84,8 +99,9 @@ body {
   justify-content: space-between;
 }
 
-/* .product */
-
+/*--------------- 
+    products
+------------------ */
 .product-section > h2 {
   text-align: center;
 }
@@ -129,10 +145,10 @@ body {
   color: #e02c6d;
   margin-top: 5px;
 }
-/* .cointainer a {
-  margin-right: 0px;
-} */
 
+/* -------------------
+upcomming product
+---------------------- */
 .upcomming-section {
   margin-top: 5em;
 }
@@ -140,6 +156,10 @@ body {
 .upcomming-section > h2 {
   text-align: center;
 }
+
+/*------------------ 
+footer section 
+-------------------*/
 
 footer {
   background-color: black;
@@ -149,7 +169,9 @@ footer {
   text-align: center;
 }
 
-/* Responsive */
+/*-------------------- 
+Responsive for mobile phone
+----------------------*/
 
 @media only screen and (max-width: 688px) {
   .nav-bar {
@@ -183,34 +205,58 @@ footer {
     top: -450px;
   }
 
-  .logo-section > hr{
+  .logo-section > hr {
     visibility: hidden;
-    }
-  
-    .logos {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-column-gap: 1.5em;
-      grid-row-gap: 1.5em;
-      margin-top: -450px;
+  }
 
-    }
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1.5em;
+    grid-row-gap: 1.5em;
+    margin-top: -450px;
+  }
 
-    .products {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-column-gap: 30px;
-      grid-row-gap: 30px;
-      background-color: hsla(0, 6%, 87%, 0.103);
-      margin-left: 76px;
-      margin-right: 76px;
-      padding: 30px;
-    }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    background-color: hsla(0, 6%, 87%, 0.103);
+    margin-left: 76px;
+    margin-right: 76px;
+    padding: 30px;
+  }
 
-    .product .product-image img {
-      width: 150px;
-      height: 150px;
-    }
+  .product .product-image img {
+    width: 150px;
+    height: 150px;
+  }
+}
 
+/*-------------------- 
+Responsive for Tab
+----------------------*/
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .top-section {
+    display: flex;
+    margin-top: 86px;
+    height: 550px;
+  }
 
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    background-color: hsla(0, 6%, 87%, 0.103);
+    margin-left: 76px;
+    margin-right: 76px;
+    padding: 30px;
+  }
+
+  .product .product-image img {
+    width: 150px;
+    height: 150px;
+  }
 }
