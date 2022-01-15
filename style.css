@@ -1,20 +1,20 @@
 body {
   font-family: "Poppins", sans-serif;
+}
+.container {
   margin-right: 120px;
   margin-left: 120px;
-  font-weight: 00;
 }
 
 #nav-text {
   font-size: 24px;
   margin-top: 87px;
 }
-#text{
-    
+#text {
   font-weight: 600;
 }
-.btn-preebook{
-    font-weight: 600;
+.btn-preebook {
+  font-weight: 600;
 }
 .fa-search,
 .fa-shopping-cart {
@@ -47,10 +47,12 @@ body {
   display: flex;
   margin-top: 86px;
   height: 475px;
-  
 }
 #title {
   font-size: 52px;
+}
+#text {
+  margin-bottom: 2em;
 }
 .top-details {
   width: 50%;
@@ -67,52 +69,77 @@ body {
   top: -100%;
 }
 
-.logos{
-    display: flex;
-    padding: 0 5% 0 5%;
-    justify-content: space-between;
-
+.logo-section {
+  margin: 100px 0 100px 0;
 }
 
+.logos {
+  display: flex;
+  padding: 0 5% 0 5%;
+  justify-content: space-between;
+}
 
 /* .product */
 
-.products{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    background-color: hsla(0, 6%, 87%, 0.103);
-    margin-left: 76px;
-    margin-right: 76px;
-    padding: 30px;
+.product-section > h2 {
+  text-align: center;
 }
 
-.product{
-    background-color: #FFFFFF;
-    padding: 5%;
-    border-radius: 5px;
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  background-color: hsla(0, 6%, 87%, 0.103);
+  margin-left: 76px;
+  margin-right: 76px;
+  padding: 30px;
 }
-.product .product-image img{
-    width: 300px;
-    height: 256px;
+
+.product {
+  background-color: #ffffff;
+  padding: 5%;
+  border-radius: 5px;
 }
-.products .product .product-info{
-    display: flex;
-    align-items: center;
+.product .product-image img {
+  width: 300px;
+  height: 256px;
+}
+.products .product .product-info {
+  display: flex;
+  align-items: center;
 }
 .products .product .product-info p {
-    padding-left: 15px;
-    font-size: 14px;
+  padding-left: 15px;
+  font-size: 14px;
 }
-.fa-star.fullfill{
-    color: #FB8200;
-
-}
-.cointainer a{
-    margin-right: 0px;
+.fa-star.fullfill {
+  color: #fb8200;
 }
 
-.upcomming-section.products{
-    
+.more-item {
+  float: right;
+  margin-right: 76px;
+  text-decoration: none;
+  color: #e02c6d;
+  margin-top: 5px;
+}
+/* .cointainer a {
+  margin-right: 0px;
+} */
+
+.upcomming-section {
+  margin-top: 5em;
+}
+
+.upcomming-section > h2 {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 200px;
+  width: 100%;
+  text-align: center;
 }
